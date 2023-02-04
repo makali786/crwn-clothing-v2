@@ -1,6 +1,5 @@
 import "./button.styles.scss";
 /*
-default
 
 inverted
 
