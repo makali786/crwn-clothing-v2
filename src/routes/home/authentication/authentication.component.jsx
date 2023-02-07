@@ -4,6 +4,7 @@ import {
 } from "../../../utils/firebase/firebase.utils";
 import SignInForm from "../../../components/category-item/sign-in-form/sign-in-form.component";
 import SignUpForm from "../../../components/category-item/sign-up-form/sign-up-form.component";
+import "./authentication.styles.scss";
 
 // import { async } from "@firebase/util";
 
@@ -21,12 +22,11 @@ const Authentication = () => {
 	};
 
 	return (
-		<>
-			<h1>Sign In page</h1>
+		<div className="authentication-container">
 			<SignInForm />
 			<SignUpForm />
 			{/* <button onClick={signInWithGoogleRedirect}>Sign In With Google Redirect</button> */}
-		</>
+		</div>
 	);
 };
 
